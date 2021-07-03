@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #9AA6CF;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 693px;
+	/*min-height: 624px;*/
+
+	background: #FFFFFF;
+	box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-header h1 {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	color: #000000;
+
+	margin-top: 70px;
+	margin-right: 219px;
+	margin-bottom: 50px;
+	margin-left: 219px;
+}
+
+.header-bailled{
+	color: #000000;
+
+	margin-right: 236px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+.header-bailled h1{
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.header-bailled p{
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.card-info{
+	width: 591px;
+	display: flex;
+	flex-direction: column;
+	/*align-items: flex-start;*/
+
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.card-info input{
+	all: unset;
+	box-sizing: border-box;
+
+	width: 590px;
+	/*height: 49px;*/
+
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+
+	padding: 25px 25px;
+
+	margin-bottom: 20px;
+}
+
+.card-info input:focus{
+	background: #FFFFFF;
+	border: 1px solid #5F82FF;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.card-info input::placeholder{
+	all: unset;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+}
+
+.card-info label{
+	margin-bottom: 5px;
+
+	font-weight: bold;
+	font-size: 14px;
+	color: #000000;
+}
+
+.cardID, .card-expiration-date, .card-security-code {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.card-expiration-date  input, .card-security-code input{
+	width: 288px;
+}
+
+.card-expiration-security {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.subscribing-msg{
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 27px;
+}
+
+.subscribing-msg p{
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	color: #000000;
+}
+
+.btn-payment{
+	background: #5F82FF;
+	border-radius: 5px;
+
+	padding: 45px 256px;
+	margin-bottom: 50px;
+}
+
+.btn-payment a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.btn-payment:hover{
+	background: #093DF3;
+	box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+	border-radius: 5px;
+}
